@@ -12,17 +12,26 @@
     <header>Hello World!</header>
 </center>
 <hr />
+
 <body>
-    <img src="Images/Linares.png" width="300" height="345" alt="Jorge Profile Picture">
-    <h1>Jorge Linares</h1>
-    <p><em>This uses em to italize with emphasis while i only italizes a <strong>word</strong></p></em>
-    <p>This is bold with strong and em which gives it <strong><em>emphasis and importance</em></strong> while b and i just bolds it and italizices without emphasis</p>
-    <p>I am a Junior Developer. I love coffee and dogs.</p>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="Images/Linares.png" width="300" height="345" alt="Jorge Profile Picture"></td>
+            <td>
+                <h1>Jorge Linares</h1>
+                <p><em>This uses em to italize with emphasis while i only italizes a <strong>word</strong></p></em>
+                <p>This is bold with strong and em which gives it <strong><em>emphasis and importance</em></strong>
+                    while b and i just bolds it and italizices without emphasis</p>
+                <p>I am a Junior Developer. I love coffee and dogs.</p>
+            </td>
+        </tr>
+    </table>
+
     <hr>
     <h3>Education</h3>
     <ul>
         <li><a href="https://www.learnacademy.org/" target="_blank"><em><strong>Learn Academy</strong></em></a></li>
-        <li><a href="https://www.apus.edu/" target="_blank"><em>American Military University</em></a>  
+        <li><a href="https://www.apus.edu/" target="_blank"><em>American Military University</em></a>
             <!-- Look, the closing </li> tag is not placed here! -->
             <ul>
                 <li>MDN docs has alot of info on list including numbers and roman numerals</li>
@@ -31,7 +40,7 @@
                     <ul>
                         <li>test this out</li>
                         <li>second item second subitem second sub-subitem</li>
-                        <li><a href="https://github.com/LoneWanderer101" target="_blank"><em>My Github</em></li>
+                        <li><a href="https://github.com/LoneWanderer101" target="_blank"><em>My Github</em></a></li>
                     </ul>
                 </li>
                 <!-- Closing </li> tag for the li that
@@ -42,6 +51,65 @@
         </li>
         <li>third item</li>
     </ul>
+    <hr>
+    <h3>Work Experience</h3>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1995 - 2017 </td>
+                <td> United States Marine Corps </td>
+            </tr>
+            <tr>
+                <td> 2017 - 2018 </td>
+                <td> DHL Ops Supervisor </td>
+            </tr>
+            <tr>
+                <td> 2018 - 2021 </td>
+                <td> PepsiCo Ops Supervisor </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h3>Skills (Out of 5 stars)</h3>
+    <table cellspacing="5">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td> HTML </td>
+                        <td> ★★★☆☆ </td>
+                    </tr>
+                    <tr>
+                        <td> CSS </td>
+                        <td> ★★★☆☆ </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td> Javascript </td>
+                        <td> ★★★☆☆ </td>
+                    </tr>
+                    <tr>
+                        <td> React </td>
+                        <td> ★★★★☆ </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <hr>
     <a href="hobbies.html">My Hobbies</a>
     <br>
     <a href="contact.html">Contact Me</a>
