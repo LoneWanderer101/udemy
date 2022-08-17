@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(232, 239, 240);
+}
+
+/* browsers apply default css so you have to change it. Below we assigned border-style to none because there is a default one. The border-style property may be specified using one, two, three, or four values. below we have dotter and none to specify 2 of 4 sides. https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#try_it */
+hr {
+    /* background-color: whitesmoke; */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    /* below is another way of doing it */
+    /* border-style: dotted none; */
+    /* border-top: 3px dotted grey; */ 
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+}
+
+h1 {
+    color: #1c4444;
+}
+
+h3{
+    color: #66bfbf
+}
